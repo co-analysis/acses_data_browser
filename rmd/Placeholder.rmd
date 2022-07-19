@@ -1,0 +1,57 @@
+---
+pagetitle: "Civil Service Statistics data browser (Beta)"
+output: html_document
+---
+
+```{r echo = FALSE, include=FALSE}
+# Generate html links to variables that have been selected
+back_link = "<a href = https://www.gov.uk/government/statistics/civil-service-statistics-2022>Back to Civil Service Statistics</a>"
+```
+
+```{=html}
+<div class="row">
+<div class="column left">
+<h1 class="title toc-ignore">Civil Service Statistics data browser (Beta)</h1>
+</div>
+<div class="column right">
+```
+
+`r back_link`
+
+```{=html}
+</div>
+</div>
+```
+
+<br>
+<br>
+Placeholder for the Annual Civil Service Employment Survey data browser.
+
+```{css, echo=FALSE}
+  .footnoteTable td {
+    padding-right: 30px;
+    vertical-align: top;
+  }
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 80% !important;
+  padding-left: 15px;
+}
+
+.right {
+  width: 20% !important;
+  padding-right: 15px;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+```
